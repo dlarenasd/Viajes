@@ -8,6 +8,9 @@ nav img {
 .card {
     color:white
 }
+.card img {
+    height: 207px;
+}
 .btn {
     color: white;
 }
