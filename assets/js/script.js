@@ -1,6 +1,4 @@
-<script>
-    $(document).ready(function(){
-
+$(document).ready(function(){
         $("a").on('click', function (event) {
             if (this.hash !== "") {
                 event.preventDefault();
@@ -13,5 +11,11 @@
             }
 
         })
+        $(".icono").on('mouseover', function (event) {
+            $(this).css("font-size", "3em");
+            })
+        $(".icono").on('mouseleave', function (event) {
+                $(this).css("font-size", "2em");
+                })
     });
-</script>
+
