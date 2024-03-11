@@ -1,0 +1,17 @@
+body {
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
+nav img {
+    height: 1em;
+}
+.card {
+    color:white
+}
+.btn {
+    color: white;
+}
+footer i {
+    color: white;
+    font-size: 2em;
+}
