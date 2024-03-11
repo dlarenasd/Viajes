@@ -1,5 +1,7 @@
+
 $(document).ready(function(){
-        $("a").on('click', function (event) {
+    //smooth scroll   
+    $("a").on('click', function (event) {
             if (this.hash !== "") {
                 event.preventDefault();
                 var hash = this.hash;
@@ -11,6 +13,7 @@ $(document).ready(function(){
             }
 
         })
+    //mouseover-mouseleave para tamaño
         $(".icono").on('mouseover', function (event) {
             $(this).css("font-size", "3em");
             })
